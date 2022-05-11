@@ -21,33 +21,39 @@ Para configurar o git primeiramente você vai precisar configurar o git localmen
 Para configurar o git primeiramente você vai precisar configurar o git localmente em seu computador ultilizando os comando abaixo:
 
 
-`git status` - comando para visualizaar o status do versionamento
+`git status` - Comando para visualizaar o status do versionamento
 
-`git init`- responsavel por inicializar o repositorio vazio 
+`git init`- Responsavel por inicializar o repositorio vazio 
 
-`git add .`- responsavel por preparar os arquivos para serem commitados
+`git add .`- Responsavel por preparar os arquivos para serem commitados
 
-`git rm --cached <file >`- comando ultilizado para desfazer os commits
+`git rm --cached <file >`- Comando ultilizado para desfazer os commits
 
-`git commit -m "messagem"`- comando ultilizado para criar novos commits
+`git commit -m "messagem"`- Comando ultilizado para criar novos commits
 
-`git log`- comando ultilizado para mostrar os log das ramificações
+`git log`- Comando ultilizado para mostrar os log das ramificações
  
- `git branchg`- mostra na tela toda as branch locais disponiveis
+ `git branchg`- Mostra na tela toda as branch locais disponiveis
 
- `git branch <nome>`- comando para cria uma nova branch
+ `git branch <nome>`- Comando para cria uma nova branch
 
- `git checkout <nome>`- comando para acessar a branch
+ `git checkout <nome>`- Comando para acessar a branch
 
- `git checkout -b <nome>`- comando cria uma nova branch e tambem faz o acesso a mesma
+ `git checkout -b <nome>`- Comando cria uma nova branch e tambem faz o acesso a mesma
 
- `git branch -d <nome>`- comando ultilizado para deletar alguma banch em especifico
+ `git branch -d <nome>`- Comando ultilizado para deletar alguma banch em especifico
 
- `git merge <nome da branch>`- comando ultilizando para unir os conteudos das branch na branch principal
+ `git merge <nome da branch>`- Comando ultilizando para unir os conteudos das branch na branch principal
 
- `git push`- envia os arquivos commitados para o repositorio remoto ( github )
+ `git push`- Envia os arquivos Commitados para o repositorio remoto ( github )
  
- 
+ `git stash`-  Arquiva deixando em segundo plano as alterações durante um determinado período, para que você possa trabalhar em outra coisa, depois voltar a trabalhar de onde parou
+
+`git stash list`- Lista todos arquivos em stash
+
+`git stash apply@{ aqui você coloca o indece do stash}`- Seleciona qual stash você que voltar a trabalhar
+
+`git stash pop`- Esse comando volta no stash mais recente
  
  
 
@@ -66,4 +72,3 @@ Para configurar o git primeiramente você vai precisar configurar o git localmen
 [![git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/) 
 
 [![github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
-
